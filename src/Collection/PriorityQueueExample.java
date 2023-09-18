@@ -21,7 +21,7 @@ public class PriorityQueueExample {
         }
         priorityQueue.remove();
         priorityQueue.poll();
-        System.out.println("Before Removing: ");
+        System.out.println("After Removing: ");
         Iterator iterator2 = priorityQueue.iterator();
         while (iterator2.hasNext()){
             System.out.println(iterator2.next());

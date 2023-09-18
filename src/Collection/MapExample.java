@@ -26,7 +26,5 @@ public class MapExample {
 
         map.entrySet();
         System.out.println(Map.Entry.comparingByKey());
-        for
-
     }
 }

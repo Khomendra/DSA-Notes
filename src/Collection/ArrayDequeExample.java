@@ -7,6 +7,7 @@ public class ArrayDequeExample {
 
     public static void main(String []args){
 
+//        Normal flow of Deque
 //        Deque<String> deque = new ArrayDeque<>();
 //        deque.add("Ravi");
 //        deque.add("Vijay");
