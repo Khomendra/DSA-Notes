@@ -34,9 +34,11 @@ public class SelectionSort {
                     min_index = j;
                 }
             }
-            int smallestNum = arr[min_index];
-            arr[min_index] = arr[i];
-            arr[i] = smallestNum;
+            if (min_index != i) {
+                int smallestNum = arr[min_index];
+                arr[min_index] = arr[i];
+                arr[i] = smallestNum;
+            }
         }
 
     }
