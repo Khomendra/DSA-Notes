@@ -21,6 +21,11 @@ package Array.Easy;
 //    }
 //
 //    public static void leftRotate(int []arr, int n, int d){
+//         if (n == 0)
+//         return;
+//         d = d % n;
+//         if (d > n)
+//         return;
 //        int tempArr[] = new int[n-d];
 //
 //        for (int i = 0; i < d; i++) {

@@ -10,6 +10,7 @@ import java.util.Arrays;
 //Right rotate: Brute force approach
 public class Program_6 {
     public static void main(String []args){
+        System.out.println("Rotate the array to the right side by D position");
         Program_6 program6 = new Program_6();
         int[] nums = {1, 2, 3, 4, 5, 6, 7};
         int k = 2;
